@@ -66,11 +66,11 @@ public class SortText : MonoBehaviour {
         bool _compare;
         for(int i = 0; i < strings.Length-1; i++)
         {
-            while (strings[i].ToCharArray().Length < strings[i + 1].ToCharArray().Length)
+            while (strings[i].Length < strings[i + 1].Length)
             {
                 //string字数相同时比较字母数
 
-                if(strings[i].ToCharArray().Length == strings[i + 1].ToCharArray().Length)
+                if(strings[i].Length == strings[i + 1].Length)
                 {
                     _compare = CompareSameLength(strings[i], strings[i + 1]);
                     if (_compare)
@@ -143,7 +143,9 @@ public class SortText : MonoBehaviour {
     public void WriteToOutputText()
     {
         newlongstr = String.Join("，", SortArray(strings));
-        sortedArray.text += newlongstr;
+
+        //sortedArray.text += newlongstr;
+        sortedArray.text = "新字符串：" + newlongstr;
     }
 
 }
