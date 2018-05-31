@@ -119,7 +119,7 @@ public class SortText : MonoBehaviour {
         char[] c = a.ToCharArray();
         foreach (char ch in c)
         {
-            if (ch >= 'a' && ch <= 'z' || ch >= 'a' && ch <= 'Z')
+            if (ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z')
             {
                 count++;
             }
