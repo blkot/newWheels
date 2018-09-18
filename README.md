@@ -17,3 +17,10 @@ NewWheels
 #Tools\MyStack.cs
 -------
 >>C#泛型构造简单栈
+
+
+
+
+#Assets/_Scripts/Tools/MyFramework/ObjectPool.cs
+-------
+>>C#单例对象池，U3DResources/Prefabs下GO可预初始化
