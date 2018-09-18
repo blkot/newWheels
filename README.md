@@ -23,4 +23,4 @@ NewWheels
 
 #Assets/_Scripts/Tools/MyFramework/ObjectPool.cs
 -------
->>C#单例对象池，U3DResources/Prefabs下GO可预初始化
+>>C#单例对象池，[U3D]Resources/Prefabs下GO可预初始化
